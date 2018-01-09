@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/tb_title"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen_toolbar_height"
+        android:background="@color/colorPrimary"
+        android:theme="@style/Theme.AppCompat.NoActionBar"
+        app:contentInsetEnd="0dp"
+        app:contentInsetLeft="0dp"
+        app:contentInsetRight="0dp"
+        app:contentInsetStart="0dp"
+        app:contentInsetStartWithNavigation="0dp"
+        app:titleMargin="0dp">
+
+        <com.library.ChooseEditText
+            android:id="@+id/cet_city"
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:layout_marginEnd="10dp"
+            android:paddingEnd="6dp"
+            android:paddingStart="8dp"
+            android:theme="@style/Theme.AppCompat.Light.NoActionBar"
+            app:cet_ChooseTextColor="@color/colorPrimary"
+            app:cet_Hint="输入城市"
+            app:cet_TextSize="4sp">
+
+        </com.library.ChooseEditText>
+
+    </android.support.v7.widget.Toolbar>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/rv_search_suggestion"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+
+</LinearLayout>

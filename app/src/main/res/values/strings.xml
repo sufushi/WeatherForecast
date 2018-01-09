@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">天气预报</string>
+    <string name="string_type">舒适度指数</string>
+    <string name="string_brf">舒适</string>
+    <string name="string_share">分享</string>
+    <string name="string_setting">设置</string>
+    <string name="string_input_city">输入城市</string>
+</resources>
